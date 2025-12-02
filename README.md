@@ -22,10 +22,16 @@ Built with **OpenCV** + **MediaPipe**.
   - `FIST`
   - `POINTING` (index extended)
   - `PINCH` (thumb + index)
+- collect_data.py collects data using webcam and must try to collect gestures with different angles for unbiased result
+- train_model.py trains model using CNN neural network
+- realtime_control works with gestures recorded and performs live action using webcam
 
 ### ASL Writing Mode
 
 - Recognizes some **static** ASL letters (e.g. `A, B, C, D, L` as examples)
 - Displays recognized letters on-screen and appends to a text buffer
+- data_ASL collects data using different american sign languages learns from it
+- Model_Training trains the model using CNN nueral network
+- realtime_control works with gestures recorded and performs live action using webcam
 
 
